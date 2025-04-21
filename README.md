@@ -138,6 +138,6 @@ predicted_label = np.argmax(prediction)
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome!
 Feel free to fork this repository, raise issues, or submit pull requests to improve the project.
