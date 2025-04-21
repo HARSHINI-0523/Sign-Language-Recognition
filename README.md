@@ -68,6 +68,7 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.BatchNormalization(),
     tf.keras.layers.Dense(24, activation='softmax')  # 24 classes for A–Z (excluding J, Z)
 ])
+```
 
 ### 🔹 Step 3: Training
 The model is compiled and trained using the following configuration:
@@ -91,12 +92,16 @@ history = model.fit(
     epochs=20,
     batch_size=64
 )
+```
+
 ### 🔹 Step 4: Evaluation
 After training, the model's performance is evaluated using the validation/test set.
 
 ``` python
 test_loss, test_acc = model.evaluate(X_test, y_test)
 print(f"Test Accuracy: {test_acc:.2f}")
+```
+
 Also includes:
 
 🔍 Confusion Matrix to analyze misclassifications
@@ -109,6 +114,7 @@ Once trained, you can use the model to predict new hand sign images:
 ``` python
 prediction = model.predict(image.reshape(1, 28, 28, 1))
 predicted_label = np.argmax(prediction)
+```
 
 ---
 
