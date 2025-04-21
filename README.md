@@ -125,7 +125,7 @@ predicted_label = np.argmax(prediction)
 
 📈 Accuracy/loss graphs available for training and validation analysis
 
---
+---
 
 ## 📌 Future Improvements
 📹 Real-time hand gesture prediction using webcam
@@ -136,7 +136,7 @@ predicted_label = np.argmax(prediction)
 
 ⚙️ Enhance with transfer learning for improved accuracy
 
---
+---
 
 ## 🤝 Contributing
 Contributions are welcome!
