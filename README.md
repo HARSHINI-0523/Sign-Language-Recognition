@@ -30,7 +30,7 @@ A deep learning project that uses **Convolutional Neural Networks (CNN)** to rec
 ## 📁 Dataset
 
 - The project uses a publicly available **ASL static sign language image dataset**.  
-- 📥 Download from: [https://acesse.one/slr-dataset](https://acesse.one/slr-dataset)
+- 📥 Download from: [Dataset](https://drive.google.com/drive/folders/12PJI9E6z5_gWrpRSmj13ZPIvxeeN34yI?usp=drive_link)
 
 ### Dataset Highlights
 - Contains labeled images for A–Z (excluding J and Z)
